@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="istenen methodlar" verbose="3">
+    <test name="method">
+        <classes>
+            <class name="tests.day16_Annotations.C03_Priority">
+                <methods>
+                    <include name="test02">
+
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
